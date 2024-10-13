@@ -1,0 +1,300 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "backgroundColor": "#61030A",
+      "contents": [
+        {
+          "type": "text",
+          "text": "ตารางเปรียบเทียบสินค้า",
+          "weight": "bold",
+          "size": "xl",
+          "color": "#FFFFFF",
+          "align": "center"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "รุ่น",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 2,
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "ขนาด",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "ความจุ",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "5G",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "ราคา",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center",
+                  "weight": "bold"
+                },
+                {
+                  "type": "text",
+                  "text": "ความแข็งแรง",
+                  "size": "sm",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center",
+                  "weight": "bold"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "iPad Pro 2023",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "11\"",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "128GB",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "✓",
+                  "size": "sm",
+                  "color": "#4CAF50",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "฿799",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "High",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Galaxy Tab S8",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "11\"",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "256GB",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "✓",
+                  "size": "sm",
+                  "color": "#4CAF50",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "฿699",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "Medium",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Surface Pro 9",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "13\"",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "256GB",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "✓",
+                  "size": "sm",
+                  "color": "#4CAF50",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "฿999",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "High",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "Xiaomi Pad 6",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 2
+                },
+                {
+                  "type": "text",
+                  "text": "11\"",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "128GB",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "✗",
+                  "size": "sm",
+                  "color": "#F44336",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "฿399",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                },
+                {
+                  "type": "text",
+                  "text": "Medium",
+                  "size": "xs",
+                  "color": "#FFFFFF",
+                  "flex": 1,
+                  "align": "center"
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "borderWidth": "medium",
+      "cornerRadius": "none"
+    }
+  }

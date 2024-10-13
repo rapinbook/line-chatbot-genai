@@ -1,0 +1,172 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "header": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "รีวิว iPad Pro 2023",
+          "weight": "bold",
+          "size": "xl",
+          "color": "#FFFFFF"
+        }
+      ],
+      "backgroundColor": "#D32F2F",
+      "paddingAll": "20px"
+    },
+    "hero": {
+      "type": "image",
+      "url": "https://example.com/ipad-pro-2023.jpg",
+      "size": "full",
+      "aspectRatio": "20:13",
+      "aspectMode": "cover"
+    },
+    "body": {
+      "type": "box",
+      "layout": "vertical",
+      "contents": [
+        {
+          "type": "text",
+          "text": "จุดเด่นสำคัญสำหรับผู้ซื้อทั่วไป",
+          "weight": "bold",
+          "size": "md",
+          "margin": "md"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "sm",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "1.",
+                  "color": "#D32F2F",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "ชิพ M2 ทรงพลัง: ใช้งานแอพได้ลื่นไหล เหมาะกับการทำงานหลายอย่างพร้อมกัน",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "2.",
+                  "color": "#D32F2F",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "จอภาพ Liquid Retina: สีสันสดใส เหมาะสำหรับดูวิดีโอ",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "3.",
+                  "color": "#D32F2F",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "รองรับ Apple Pencil: ยอดเยี่ยมสำหรับจดโน้ตและวาดภาพ",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "baseline",
+              "spacing": "sm",
+              "contents": [
+                {
+                  "type": "text",
+                  "text": "4.",
+                  "color": "#D32F2F",
+                  "size": "sm",
+                  "flex": 1
+                },
+                {
+                  "type": "text",
+                  "text": "รองรับ 5G: อินเทอร์เน็ตความเร็วสูงนอกบ้าน (ต้องใช้แพ็คเกจ 5G)",
+                  "wrap": true,
+                  "color": "#666666",
+                  "size": "sm",
+                  "flex": 5
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "text",
+          "text": "เหมาะสำหรับนักเรียน นักศึกษา มืออาชีพ และผู้ที่ชื่นชอบงานครีเอทีฟ!",
+          "wrap": true,
+          "color": "#D32F2F",
+          "size": "xs",
+          "margin": "md"
+        }
+      ]
+    },
+    "footer": {
+      "type": "box",
+      "layout": "vertical",
+      "spacing": "sm",
+      "contents": [
+        {
+          "type": "button",
+          "style": "primary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "ซื้อเลย",
+            "uri": "https://example.com/buy-ipad-pro"
+          },
+          "color": "#D32F2F"
+        },
+        {
+          "type": "button",
+          "style": "secondary",
+          "height": "sm",
+          "action": {
+            "type": "uri",
+            "label": "อ่านเพิ่มเติม",
+            "uri": "https://example.com/ipad-pro-details"
+          }
+        }
+      ],
+      "flex": 0
+    }
+  }

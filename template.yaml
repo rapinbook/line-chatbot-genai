@@ -15,6 +15,14 @@ Parameters:
     Type: String
     Default: 'yyy'
 
+  BedrockKbID:
+    Type: String
+    Default: 'yyy'
+
+  BedrockKbProductID:
+    Type: String
+    Default: 'yyy'
+
 Globals:
   Function:
     Timeout: 3
@@ -23,6 +31,8 @@ Globals:
       Variables:
         Channel_access_token      : !Ref ChannelAccessToken
         Channel_secret            : !Ref ChannelSecret
+        Bedrock_kb_id            : !Ref BedrockKbID
+        Bedrock_kb_product_id     : !Ref BedrockKbProductID
     # You can add LoggingConfig parameters such as the Logformat, Log Group, and SystemLogLevel or ApplicationLogLevel. Learn more here https://docs.aws.amazon.com/serverless-application-model/latest/developerguide/sam-resource-function.html#sam-function-loggingconfig.
     LoggingConfig:
       LogFormat: JSON
@@ -35,6 +45,9 @@ Resources:
       CodeUri: line_chatbot_genai/
       Handler: app.lambda_handler
       Runtime: python3.9
+      Timeout: 600
+      Layers:
+        - !Ref ConfigLayer  # Reference to the Layer
       Architectures:
       - x86_64
       Events:
@@ -43,6 +56,17 @@ Resources:
           Properties:
             Path: /webhook
             Method: POST
+
+
+  ConfigLayer:
+    Type: 'AWS::Serverless::LayerVersion'
+    Properties:
+      LayerName: config-layer
+      ContentUri: config-layer/  # Path to your layer content
+      CompatibleRuntimes:
+        - python3.8
+        - python3.9
+            
 
 Outputs:
   # ServerlessRestApi is an implicit API created out of Events key under Serverless::Function
