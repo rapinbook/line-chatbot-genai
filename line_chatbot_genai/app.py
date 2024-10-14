@@ -98,8 +98,7 @@ You are a chatbot that will focus on product recommendations. Here’s a tailore
    - "This smartwatch has a 4.7-star rating, priced at $199. It has features like GPS, heart-rate monitoring, and a 2-day battery life."
 **Comparison (if requested)**:
    - "Here's a side-by-side comparison of these two smartphones: Smartphone A has a better camera, while Smartphone B has more storage."
-**Goodbye**:
-   - "Glad I could help with your shopping! Let me know if you have any more questions."
+**Please answer only products which contained in our store.**
                 
 Here are the search results in numbered order:
 $search_results$
@@ -397,14 +396,15 @@ def gen_jreview_flex_product_list(data, answer_list):
                 layout='vertical',
                 contents=[
                     # title
-                    FlexText(text=str(product["product_name"]), weight='bold', size='md'),
+                    FlexText(text="จุดเด่นสำคัญสำหรับผู้ซื้อทั่วไป", weight='bold', size='md', margin='md'),
                     # info
                     FlexBox(
                         layout='vertical',
                         margin='lg',
                         spacing='sm',
                         contents=review_body,
-                    )
+                    ),
+                    FlexText(text="เหมาะสำหรับนักเรียน นักศึกษา มืออาชีพ และผู้ที่ชื่นชอบงานครีเอทีฟ!",wrap=True,color='#4CAF50', size='xs', margin='md')
                 ],
             )
             ,
@@ -723,7 +723,7 @@ def handle_message(event):
         print("thai version of text input: ", eng_version_input.get("TranslatedText"), '\n')
         # result = retrieve_and_generate(input=eng_version_input.get("TranslatedText"), knowledge_base_id=os.getenv('Bedrock_kb_id'), model_arn=model_arn, sessionId=sessionID)
         # Example usage:
-        result = retrieve_and_generate(input=event.message.text + " ตอบเป็นภาษาอังกฤษ", knowledge_base_id=os.getenv('Bedrock_kb_id'), model_arn=model_arn,prompt=prompt_string, sessionId='')
+        result = retrieve_and_generate(input=event.message.text + " ตอบเป็นภาษาอังกฤษ" + " please answer within 3 sentence", knowledge_base_id=os.getenv('Bedrock_kb_id'), model_arn=model_arn,prompt=prompt_string, sessionId='')
         generated_text = result['output']['text']
         print("result: " , generated_text, result['sessionId'])
         result_pd_id = retrieve_and_generate(input=generated_text, knowledge_base_id=os.getenv('Bedrock_kb_product_id'), model_arn=model_arn, prompt=prompt_product_id_search, sessionId='')
