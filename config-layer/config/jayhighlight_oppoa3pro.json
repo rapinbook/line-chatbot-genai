@@ -1,0 +1,378 @@
+{
+    "type": "bubble",
+    "size": "giga",
+    "body": {
+      "type": "box",
+      "layout": "vertical", 
+      "backgroundColor": "#FFFFFF",
+      "contents": [
+        {
+          "type": "text",
+          "text": "ช่องทางการสั่งซื้อที่แนะนำ",
+          "weight": "bold",
+          "size": "xl",
+          "color": "#333333",
+          "align": "center",
+          "margin": "md"
+        },
+        {
+          "type": "text",
+          "text": "เลือกช่องทางที่สะดวกสำหรับคุณ",
+          "size": "sm",
+          "color": "#666666",
+          "align": "center",
+          "margin": "sm"
+        },
+        {
+          "type": "box",
+          "layout": "vertical",
+          "margin": "lg",
+          "spacing": "md",
+          "contents": [
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#F8F9FA",
+              "cornerRadius": "lg",
+              "paddingAll": "md",
+              "borderWidth": "light",
+              "borderColor": "#E9ECEF",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 4,
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Website",
+                          "color": "#333333",
+                          "size": "md",
+                          "weight": "bold",
+                          "margin": "sm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "ราคาปกติ ฿7,599",
+                      "color": "#999999",
+                      "size": "xs",
+                      "margin": "sm",
+                      "decoration": "line-through"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "margin": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "backgroundColor": "#E8F5E9",
+                          "paddingAll": "sm",
+                          "cornerRadius": "sm",
+                          "contents": [
+                            {
+                              "type": "text",
+                              "text": "5.3% OFF",
+                              "color": "#2E7D32",
+                              "size": "xs",
+                              "weight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "฿7,199",
+                          "color": "#333333",
+                          "size": "lg",
+                          "weight": "bold",
+                          "margin": "md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "ซื้อเลย",
+                    "uri": "https://jaymartstore.com/"
+                  },
+                  "style": "primary",
+                  "color": "#61030A",
+                  "height": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#F8F9FA",
+              "cornerRadius": "lg",
+              "paddingAll": "md",
+              "borderWidth": "light",
+              "borderColor": "#E9ECEF",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 4,
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Lazada",
+                          "color": "#333333",
+                          "size": "md",
+                          "weight": "bold",
+                          "margin": "sm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "ราคาปกติ ฿7,599",
+                      "color": "#999999",
+                      "size": "xs",
+                      "margin": "sm",
+                      "decoration": "line-through"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "margin": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "backgroundColor": "#E8F5E9",
+                          "paddingAll": "sm",
+                          "cornerRadius": "sm",
+                          "contents": [
+                            {
+                              "type": "text",
+                              "text": "7.9% OFF",
+                              "color": "#2E7D32",
+                              "size": "xs",
+                              "weight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "฿6,999",
+                          "color": "#333333",
+                          "size": "lg",
+                          "weight": "bold",
+                          "margin": "md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "ซื้อเลย",
+                    "uri": "https://www.lazada.co.th"
+                  },
+                  "style": "primary",
+                  "color": "#61030A",
+                  "height": "sm",
+                  "flex": 2
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#F8F9FA",
+              "cornerRadius": "lg",
+              "paddingAll": "md",
+              "borderWidth": "light",
+              "borderColor": "#E9ECEF",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 4,
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "Shopee",
+                          "color": "#333333",
+                          "size": "md",
+                          "weight": "bold",
+                          "margin": "sm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "ราคาปกติ ฿7,599",
+                      "color": "#999999",
+                      "size": "xs",
+                      "margin": "sm",
+                      "decoration": "line-through"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "margin": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "backgroundColor": "#E8F5E9",
+                          "paddingAll": "sm",
+                          "cornerRadius": "sm",
+                          "contents": [
+                            {
+                              "type": "text",
+                              "text": "9.2% OFF",
+                              "color": "#2E7D32",
+                              "size": "xs",
+                              "weight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "฿6,899",
+                          "color": "#333333",
+                          "size": "lg",
+                          "weight": "bold",
+                          "margin": "md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "ซื้อเลย",
+                    "uri": "https://shopee.co.th/"
+                  },
+                  "style": "primary",
+                  "color": "#61030A",
+                  "height": "sm",
+                  "flex": 2,
+                  "position": "relative"
+                }
+              ]
+            },
+            {
+              "type": "box",
+              "layout": "horizontal",
+              "backgroundColor": "#F8F9FA",
+              "cornerRadius": "lg",
+              "paddingAll": "md",
+              "borderWidth": "light",
+              "borderColor": "#E9ECEF",
+              "justifyContent": "center",
+              "alignItems": "center",
+              "contents": [
+                {
+                  "type": "box",
+                  "layout": "vertical",
+                  "flex": 4,
+                  "contents": [
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "contents": [
+                        {
+                          "type": "text",
+                          "text": "TikTok Shop",
+                          "color": "#333333",
+                          "size": "md",
+                          "weight": "bold",
+                          "margin": "sm"
+                        }
+                      ]
+                    },
+                    {
+                      "type": "text",
+                      "text": "ราคาปกติ ฿7,599",
+                      "color": "#999999",
+                      "size": "xs",
+                      "margin": "sm",
+                      "decoration": "line-through"
+                    },
+                    {
+                      "type": "box",
+                      "layout": "horizontal",
+                      "margin": "sm",
+                      "contents": [
+                        {
+                          "type": "box",
+                          "layout": "vertical",
+                          "backgroundColor": "#E8F5E9",
+                          "paddingAll": "sm",
+                          "cornerRadius": "sm",
+                          "contents": [
+                            {
+                              "type": "text",
+                              "text": "10.5% OFF",
+                              "color": "#2E7D32",
+                              "size": "xs",
+                              "weight": "bold"
+                            }
+                          ]
+                        },
+                        {
+                          "type": "text",
+                          "text": "฿6,799",
+                          "color": "#333333",
+                          "size": "lg",
+                          "weight": "bold",
+                          "margin": "md"
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "button",
+                  "action": {
+                    "type": "uri",
+                    "label": "ซื้อเลย",
+                    "uri": "https://shop-th.tiktok.com/"
+                  },
+                  "style": "primary",
+                  "color": "#61030A",
+                  "height": "sm",
+                  "flex": 2
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "paddingAll": "xl"
+    }
+  }

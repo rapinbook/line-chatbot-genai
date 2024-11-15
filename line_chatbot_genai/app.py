@@ -693,8 +693,34 @@ def handle_message(event):
                 flex_list = gen_jreview_flex_product_list(pd_detail, answer_list)
                 flex_carousel = FlexCarousel(type='carousel',contents=flex_list)
                 messages_output = [FlexMessage(alt_text="jayreview", contents=flex_carousel)]
-        if 'iphone 16 pro max' in text:
+        if 'iphone 16 pro max' in text.lower():
             with open('/opt/config/jayhighlight.json', 'r', encoding='utf-8') as file:
+                json_string = file.read()
+            message_highlight = FlexMessage(alt_text="jayhighlight", contents=FlexContainer.from_json(json_string))
+            messages_output.append(message_highlight)
+            with ApiClient(configuration) as api_client:
+                line_bot_api = MessagingApi(api_client)
+                line_bot_api.reply_message(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=messages_output
+                    )
+                )
+        elif 'oppo a3 pro' in text.lower(): 
+            with open('/opt/config/jayhighlight_oppoa3pro.json', 'r', encoding='utf-8') as file:
+                json_string = file.read()
+            message_highlight = FlexMessage(alt_text="jayhighlight", contents=FlexContainer.from_json(json_string))
+            messages_output.append(message_highlight)
+            with ApiClient(configuration) as api_client:
+                line_bot_api = MessagingApi(api_client)
+                line_bot_api.reply_message(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=messages_output
+                    )
+                )
+        elif 'z fold6' in text.lower(): 
+            with open('/opt/config/jayhighlight_zfold6.json', 'r', encoding='utf-8') as file:
                 json_string = file.read()
             message_highlight = FlexMessage(alt_text="jayhighlight", contents=FlexContainer.from_json(json_string))
             messages_output.append(message_highlight)
