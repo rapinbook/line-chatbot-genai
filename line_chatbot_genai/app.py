@@ -693,25 +693,28 @@ def handle_message(event):
                 flex_list = gen_jreview_flex_product_list(pd_detail, answer_list)
                 flex_carousel = FlexCarousel(type='carousel',contents=flex_list)
                 messages_output = [FlexMessage(alt_text="jayreview", contents=flex_carousel)]
-        with ApiClient(configuration) as api_client:
-            line_bot_api = MessagingApi(api_client)
-            line_bot_api.reply_message(
-                ReplyMessageRequest(
-                    reply_token=event.reply_token,
-                    messages=messages_output
+        if 'iphone 16 pro max' in text:
+            with open('/opt/config/jayhighlight.json', 'r', encoding='utf-8') as file:
+                json_string = file.read()
+            message_highlight = FlexMessage(alt_text="jayhighlight", contents=FlexContainer.from_json(json_string))
+            messages_output.append(message_highlight)
+            with ApiClient(configuration) as api_client:
+                line_bot_api = MessagingApi(api_client)
+                line_bot_api.reply_message(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=messages_output
+                    )
                 )
-            )
-        # with open('/opt/config/jayreview.json', 'r', encoding='utf-8') as file:
-        #     json_string = file.read()
-        # with ApiClient(configuration) as api_client:
-        #     line_bot_api = MessagingApi(api_client)
-        #     message = FlexMessage(alt_text="jayreview", contents=FlexContainer.from_json(json_string))
-        #     line_bot_api.reply_message(
-        #         ReplyMessageRequest(
-        #             reply_token=event.reply_token,
-        #             messages=[message]
-        #         )
-        #     )
+        else:
+            with ApiClient(configuration) as api_client:
+                line_bot_api = MessagingApi(api_client)
+                line_bot_api.reply_message(
+                    ReplyMessageRequest(
+                        reply_token=event.reply_token,
+                        messages=messages_output
+                    )
+                )
 
     else:
         translate = boto3.client('translate')
