@@ -51,7 +51,7 @@
                       "contents": [
                         {
                           "type": "text",
-                          "text": "Website",
+                          "text": "Jaymart Online",
                           "color": "#333333",
                           "size": "md",
                           "weight": "bold",
@@ -61,7 +61,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "ราคาปกติ ฿63,900",
+                      "text": "ราคาปกติ ฿48,900",
                       "color": "#999999",
                       "size": "xs",
                       "margin": "sm",
@@ -81,7 +81,7 @@
                           "contents": [
                             {
                               "type": "text",
-                              "text": "1.6% OFF",
+                              "text": "2.0% OFF",
                               "color": "#2E7D32",
                               "size": "xs",
                               "weight": "bold"
@@ -90,7 +90,7 @@
                         },
                         {
                           "type": "text",
-                          "text": "฿62,900",
+                          "text": "฿47,900",
                           "color": "#333333",
                           "size": "lg",
                           "weight": "bold",
@@ -105,7 +105,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://jaymartstore.com/"
+                    "uri": "https://jaymartstore.com/products/samsung-galaxy-s24-ultra-5g-12-512gb?srsltid=AfmBOopVwlHUNSPajC9yH7Eurlc_BpDkY5Tb10Lbi0Payi1n-TkwQFLq"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -146,7 +146,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "ราคาปกติ ฿63,900",
+                      "text": "ราคาปกติ ฿48,900",
                       "color": "#999999",
                       "size": "xs",
                       "margin": "sm",
@@ -166,7 +166,7 @@
                           "contents": [
                             {
                               "type": "text",
-                              "text": "3.1% OFF",
+                              "text": "4.1% OFF",
                               "color": "#2E7D32",
                               "size": "xs",
                               "weight": "bold"
@@ -175,7 +175,7 @@
                         },
                         {
                           "type": "text",
-                          "text": "฿61,900",
+                          "text": "฿46,900",
                           "color": "#333333",
                           "size": "lg",
                           "weight": "bold",
@@ -190,7 +190,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://www.lazada.co.th"
+                    "uri": "https://s.lazada.co.th/s.Igzh0"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -231,7 +231,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "ราคาปกติ ฿63,900",
+                      "text": "ราคาปกติ ฿48,900",
                       "color": "#999999",
                       "size": "xs",
                       "margin": "sm",
@@ -251,7 +251,7 @@
                           "contents": [
                             {
                               "type": "text",
-                              "text": "4.7% OFF",
+                              "text": "5.1% OFF",
                               "color": "#2E7D32",
                               "size": "xs",
                               "weight": "bold"
@@ -260,7 +260,7 @@
                         },
                         {
                           "type": "text",
-                          "text": "฿60,900",
+                          "text": "฿46,400",
                           "color": "#333333",
                           "size": "lg",
                           "weight": "bold",
@@ -275,7 +275,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://shopee.co.th/"
+                    "uri": "https://th.shp.ee/N1RGLZK"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -317,7 +317,7 @@
                     },
                     {
                       "type": "text",
-                      "text": "ราคาปกติ ฿63,900",
+                      "text": "ราคาปกติ ฿48,900",
                       "color": "#999999",
                       "size": "xs",
                       "margin": "sm",
@@ -337,7 +337,7 @@
                           "contents": [
                             {
                               "type": "text",
-                              "text": "6.3% OFF",
+                              "text": "6.1% OFF",
                               "color": "#2E7D32",
                               "size": "xs",
                               "weight": "bold"
@@ -346,7 +346,7 @@
                         },
                         {
                           "type": "text",
-                          "text": "฿59,900",
+                          "text": "฿45,900",
                           "color": "#333333",
                           "size": "lg",
                           "weight": "bold",
@@ -361,7 +361,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://shop-th.tiktok.com/"
+                    "uri": "https://vt.tiktok.com/ZSjPDhjCG/"
                   },
                   "style": "primary",
                   "color": "#61030A",

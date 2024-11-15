@@ -51,7 +51,7 @@
                       "contents": [
                         {
                           "type": "text",
-                          "text": "Website",
+                          "text": "Jaymart Online",
                           "color": "#333333",
                           "size": "md",
                           "weight": "bold",
@@ -105,7 +105,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://jaymartstore.com/"
+                    "uri": "https://jaymartstore.com/products/oppo-a3-pro-5g-?srsltid=AfmBOopGWIskInFHsJxNurVOk6tnrr4tKebUsCCdQoqDfq9FGCw6rb4Z"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -190,7 +190,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://www.lazada.co.th"
+                    "uri": "https://s.lazada.co.th/s.Igz3g"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -275,7 +275,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://shopee.co.th/"
+                    "uri": "https://th.shp.ee/BgtLVTb"
                   },
                   "style": "primary",
                   "color": "#61030A",
@@ -361,7 +361,7 @@
                   "action": {
                     "type": "uri",
                     "label": "ซื้อเลย",
-                    "uri": "https://shop-th.tiktok.com/"
+                    "uri": "https://vt.tiktok.com/ZSjPAcmup/"
                   },
                   "style": "primary",
                   "color": "#61030A",

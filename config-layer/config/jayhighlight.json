@@ -51,7 +51,7 @@
                       "contents": [
                         {
                           "type": "text",
-                          "text": "Website",
+                          "text": "Jaymart Online",
                           "color": "#333333",
                           "size": "md",
                           "weight": "bold",
@@ -337,7 +337,7 @@
                           "contents": [
                             {
                               "type": "text",
-                              "text": "5.3 OFF",
+                              "text": "5.3% OFF",
                               "color": "#2E7D32",
                               "size": "xs",
                               "weight": "bold"
